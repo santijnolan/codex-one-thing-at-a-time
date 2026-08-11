@@ -1,0 +1,4 @@
+interface:
+  display_name: "Plan de a una"
+  short_description: "Aprobá de a una; después Codex ejecuta todo"
+  default_prompt: "Usá $one-thing-at-a-time para que acordemos el plan una decisión por vez y después ejecutes todo lo aprobado."
