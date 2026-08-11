@@ -23,7 +23,7 @@ Está pensada para reducir carga cognitiva y conservar control sobre las decisio
 Pedile a Codex:
 
 ```text
-Instalá la skill desde https://github.com/santijnolan/codex-one-thing-at-a-time/tree/main/skills/one-thing-at-a-time
+Instalá con el método git la skill de https://github.com/santijnolan/codex-one-thing-at-a-time/tree/main/skills/one-thing-at-a-time
 ```
 
 O usá el instalador incluido en Codex:
@@ -31,7 +31,8 @@ O usá el instalador incluido en Codex:
 ```bash
 python3 ~/.codex/skills/.system/skill-installer/scripts/install-skill-from-github.py \
   --repo santijnolan/codex-one-thing-at-a-time \
-  --path skills/one-thing-at-a-time
+  --path skills/one-thing-at-a-time \
+  --method git
 ```
 
 La skill estará disponible en el siguiente turno de Codex.
